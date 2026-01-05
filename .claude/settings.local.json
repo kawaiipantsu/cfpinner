@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "WebFetch(domain:www.cloudflare.com)",
+      "Bash(make help:*)",
+      "Bash(make clean:*)",
+      "Bash(make:*)",
+      "Bash(./build/cfpinner:*)",
+      "Bash(file:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(timeout 10 ./build/cfpinner:*)",
+      "Bash(timeout 30 ./build/cfpinner:*)",
+      "Bash(apt-cache search:*)",
+      "Bash(timeout:*)",
+      "Bash(dpkg-deb:*)",
+      "Bash(dpkg:*)",
+      "Bash(cfpinner --help:*)"
+    ]
+  }
+}
